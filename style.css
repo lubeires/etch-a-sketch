@@ -21,11 +21,13 @@ h1 {
 
   font-size: 2.4rem;
   font-weight: 300;
+  margin: auto;
+  padding: 1.6rem;
 }
 
 .options {
   color: #ededed;
-  padding: 2.4rem;
+  padding-bottom: 1.6rem;
 
   display: flex;
   align-items: center;
@@ -69,8 +71,31 @@ button:hover,
   border: 8px solid #ededed;
   box-shadow: 16px 16px;
 
-  min-height: 600px;
-  min-width: 600px;
+  min-height: 300px;
+  min-width: 300px;
+
+  height: 60vh;
+  width: 60vh;
 
   display: grid;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  line-height: 1.6rem;
+
+  width: 18rem;
+  margin: auto;
+  padding-top: 1.6rem;
+
+  justify-self: end;
 }

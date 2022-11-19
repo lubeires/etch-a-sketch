@@ -33,7 +33,6 @@ const setGrid = (size = 16) => {
 
   for (let i = 0; i < size ** 2; i++) {
     const pixel = document.createElement("div");
-    pixel.style.background = "none";
     grid.appendChild(pixel);
     pixel.addEventListener("mouseover", () => (pixel.style.background = color));
   }
