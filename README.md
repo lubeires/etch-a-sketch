@@ -1,2 +1,3 @@
 # etch-a-sketch
-project 4 of the odin project foundations course.
+Browser version of etch-a-sketch.
+
